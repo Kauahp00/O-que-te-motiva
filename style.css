@@ -1,0 +1,122 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;500&display=swap');
+
+h1{
+  font-family: 'Josefin Sans', sans-serif ;
+}
+
+
+  /* Estilizando o rótulo do input do tipo radio */
+  label { 
+     /* torna o texto em negrito */
+    display: inline-block; /* torna o rótulo um elemento em bloco para que possa ser estilizado com margens */
+    margin-bottom: 10px; /* adiciona uma margem abaixo para separar as perguntas */
+    font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  /* Estilizando o formulário */
+  form {
+    display: block;
+    margin: 40px auto;
+    padding: 50px;
+    background-color: #ffefd7f6; /* adiciona uma cor de fundo ao formulário */
+    width: 1000px; /* define uma largura máxima para o formulário */
+    border-radius: 5px; /* arredonda os cantos do formulário */
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    align-items: center;
+    justify-content: center;
+  }
+
+
+  hr {
+    width: 750px;
+  }
+  
+
+
+  /* Estilizando o botão de envio */
+button {
+    background-color: #641010; /* adiciona uma cor de fundo ao botão */
+    color: rgb(255, 255, 255); /* define a cor do texto no botão como branco */
+    border: none; /* remove a borda do botão */
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center; /* centraliza o texto no botão */
+    text-decoration: none; /* remove a decoração do texto */
+    display: inline-block; /* torna o botão um elemento em bloco para que possa ser estilizado com margens */
+    font-size: 20px; /* define o tamanho da fonte no botão */
+    margin-top: 10px; /* adiciona uma margem acima para separar o botão do resto do formulário */
+    cursor: pointer; /* adiciona um cursor de mão ao botão para indicar que ele é clicável */
+    border-radius: 5px; /* arredonda os cantos do botão */
+    padding: 5px;
+    width: 200px;
+    height: 60px;
+
+  }
+
+  #btn{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+  }
+  
+  /* Estilizando o botão de envio quando o mouse passa por cima */
+
+  #bd{
+    background-size: 100%;
+  }
+  
+
+  /*RESULTADO*/
+
+  
+  h2{
+    font-size: 20px;
+  }
+
+.tudo{
+  margin-top: 405px;
+  margin-left: 250px;
+}
+
+
+
+.btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 400px;
+  margin-left: 550px;
+}
+
+
+
+p{
+  width: 250px;
+}
+
+#resultado{
+  position: fixed; /* Define a posição fixa para o elemento */
+  bottom: 20px; /* Alinha o elemento na parte inferior da tela */
+  left: 50%; /* Alinha o centro do elemento ao centro horizontal da tela */
+  transform: translateX(-27%); /* Move o elemento para a esquerda em 50% de sua largura */
+  padding: 10px; /* Espaçamento interno (opcional) */
+  text-align: center;
+  color: white; }
+
+
+body{
+  margin: 0%;
+
+}
+
+
+footer{
+  height: 25px;
+  background-color: #641010;
+  color: #fff;
+  text-align: center;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 15px;
+  padding-top: 8px;
+}
